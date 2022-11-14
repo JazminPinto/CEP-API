@@ -13,6 +13,7 @@ input{
     width: auto;
     left: auto;
     font-size: 1rem;
+    text-align: center;
 }
 #botao{
     background-color:aqua;
