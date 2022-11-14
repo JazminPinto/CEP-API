@@ -1,0 +1,26 @@
+form {
+    display:inline-table;
+    font-size: 1.2rem;
+    margin: 1rem;
+    padding: 1rem;
+    border-style:double;
+    border-radius: .5rem;
+    border-color:blue;
+    
+
+}
+input{
+    width: auto;
+    left: auto;
+    font-size: 1rem;
+}
+#botao{
+    background-color:aqua;
+    border-radius: .5rem;
+    width: 5rem;
+    
+}
+#botao:hover{
+    background-color: tomato;
+    border-color: red;
+}

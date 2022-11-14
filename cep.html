@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cep-api</title>
+    <link rel="stylesheet" href="cep.css">
+</head>
+<body>
+    
+    <form action="">
+        <label for="cep">Cep</label><br><!-- for informa para qual id estamos apontando -->
+        <input type="text" id="cep" placeholder="12345678"><br>
+        <label for="bairro">Bairro</label><br>
+        <input type="text" id="bairro" placeholder="Estância"><br>
+        <label for="bairro">ddd</label><br>
+        <input type="text" id="ddd" placeholder="12"><br>
+        <label for="bairro">Ibge</label><br>
+        <input type="text" id="ibge" placeholder="1234567"><br>
+        <label for="bairro">Localidade</label><br>
+        <input type="text" id="localidade" placeholder="Recife"><br>
+        <label for="bairro">Logradouro</label><br>
+        <input type="text" id="logradouro" placeholder="rua - avenida"><br>
+        <label for="bairro">Uf</label><br>
+        <input type="text" id="uf" placeholder="PE"><br>
+        <label for="bairro">Siafi</label><br>
+        <input type="text" id="siafi" placeholder="1234"><br><br>
+
+        <input type="button" onclick="enviar()" value="Enviar" id="botao">
+    </form>
+
+    <p id="paragrafo"></p>
+
+    <script src="/cep.js"></script>
+
+</body>
+</html>
